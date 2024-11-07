@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", async (event) =>
 
     if (response.ok) {
         localStorage.setItem("token", result.token);
-        localStorage.setItem("role", result.role); // Store the user role
+        localStorage.setItem("role", result.role); 
 
         // Redirect based on user role
         if (result.role === "ADMIN") {

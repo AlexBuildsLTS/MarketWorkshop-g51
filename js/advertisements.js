@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
         // Prepare specifications list
         const specsList = document.getElementById('modal-laptop-specs');
-        specsList.innerHTML = ''; // Clear previous specifications
+        specsList.innerHTML = ''; 
         for (const [key, value] of Object.entries(specs)) {
             const listItem = document.createElement('li');
             listItem.textContent = `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}`;
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.show();
     }
     
-    // Populate the product cards
+   
     const productContainer = document.getElementById("product-container");
     products.forEach(product => {
         const card = document.createElement("div");

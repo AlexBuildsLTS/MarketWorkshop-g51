@@ -37,15 +37,15 @@ body {
 
 /* Section Background and Text Colors */
 section {
-    background-color: #0d1117; /* Very dark blue for the section background */
-    color: #ffffff; /* White text */
+    background-color: #05090f; 
+    color: #ffffff; 
     padding: 50px 0;
 }
 
 /* Title Styling */
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* White color for titles */
-    font-weight: bold; /* Bold titles */
+    color: #ffffff; 
+    font-weight: bold; 
 }
 
 /* Card Styling */
@@ -71,22 +71,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Modal Styling */
 .modal-content {
-    background-color: #161b22; /* Ensures dark background for modal */
+    background-color: #161b22; 
     color: #ffffff; /* White text */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #161b22; /* Dark footer */
+    background-color: #161b22; 
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
-/* Additional styling for contact information in modal */
+
 .modal-body {
     display: flex;
-    align-items: flex-start; /* Align items at the start */
+    align-items: flex-start; 
 }
 
 .modal-body img {
