@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function updateToggleButtonIcon(theme) {
-        if (theme === "light") {
-            themeToggleButton.innerHTML = `<img src="images/light-modes.png" alt="Light Mode" width="20" height="20">`;
+        if (theme === "dark") {
+            themeToggleButton.innerHTML = `<img src="images/light-mode.png" alt="Light Mode" width="20" height="20">`;
         } else {
             themeToggleButton.innerHTML = `<img src="images/dark-mode.png" alt="Dark Mode" width="20" height="20">`;
         }

@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('modal-laptop-image').src = image;
         document.getElementById('modal-laptop-description').textContent = description;
         document.getElementById('modal-laptop-contact').textContent = contact;
-    
+    }
         // Prepare specifications list
         const specsList = document.getElementById('modal-laptop-specs');
         specsList.innerHTML = ''; 
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.show();
     }
     
-   
+   {
     const productContainer = document.getElementById("product-container");
     products.forEach(product => {
         const card = document.createElement("div");
@@ -111,4 +111,4 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
         productContainer.appendChild(card);
     });
-
+} });
