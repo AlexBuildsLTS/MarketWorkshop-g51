@@ -1,0 +1,95 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117; /* Very dark blue background */
+    color: #ffffff; /* All text in white */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1C3F4B; /* Dark teal navbar */
+    padding: 15px; /* Add some padding for aesthetics */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #1C3F4B; /* Dark teal background */
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+/* Logo Styling */
+.logo {
+    border-radius: 50%; /* Make it round */
+    background-color: #1C3F4B; /* Match the header background */
+    padding: 20px; /* Add padding */
+    width: 200px; /* Set logo width */
+    height: 200px; /* Set logo height */
+    display: block; /* Center the logo in its container */
+    margin: 0 auto 20px; /* Center and add margin at the bottom */
+    object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+}
+
+
+/* Section Background and Text Colors */
+section {
+    background-color: #0d1117; /* Very dark blue for the section background */
+    color: #ffffff; /* White text */
+    padding: 50px 0;
+}
+
+/* Title Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White color for titles */
+    font-weight: bold; /* Bold titles */
+}
+
+/* Card Styling */
+.card {
+    background-color: #161b22; /* Dark card background */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex; /* Use flex to allow for equal heights */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space out elements evenly */
+    text-align: center; /* Center text within the card */
+    padding: 15px; /* Add padding for spacing */
+    height: 100%; /* Maintain equal height for cards */
+}
+
+/* Image styling */
+.card-img-top {
+    width: 100%; /* Ensure full width */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the entire image is visible */
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #161b22; /* Ensures dark background for modal */
+    color: #ffffff; /* White text */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #161b22; /* Dark footer */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Additional styling for contact information in modal */
+.modal-body {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+}
+
+.modal-body img {
+    max-width: 250px; /* Set a maximum width for the laptop image */
+    margin-right: 20px; /* Spacing between image and text */
+}

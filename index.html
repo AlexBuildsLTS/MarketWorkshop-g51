@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Youssef - Java Fullstack Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/main.js" defer></script>
+    <script src="./js/products.js" defer></script>
+    <script src="./js/advertisement.js" defer></script>
+    <script src="./js/theme-toggle.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button id="theme-toggle" class="btn btn-outline-light me-3">
+                <img src="images/light-modes.png" alt="Light Mode" width="20" height="20">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center py-5">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo"> <!-- Your logo image -->
+            <h1 class="display-4">Welcome to RangeMarket</h1>
+            <p class="lead">A platform for high-end laptops</p>
+        </div>
+    </header>
+    
+
+    <!-- Products Section -->
+    <section class="products-section py-5" id="products">
+        <div class="container">
+            <h2 class="text-center mb-4">Available Products</h2>
+            <div class="row" id="product-container">
+                <!-- Dynamically populated products will go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div class="modal fade" id="laptopDetailModal" tabindex="-1" aria-labelledby="laptopDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="laptopDetailModalLabel">Laptop Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img id="modal-laptop-image" src="" alt="" class="img-fluid me-3" style="max-width: 250px;">
+                    <div>
+                        <h6>About:</h6>
+                        <p id="modal-laptop-description"></p>
+                        <h6>Technical Specifications:</h6>
+                        <ul id="modal-laptop-specs" class="list-unstyled"></ul>
+                        <h6>Contact Information:</h6>
+                        <p id="modal-laptop-contact" class="small"></p> <!-- Smaller font for contact -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advertisements Section -->
+    <section class="advertisements-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">RangeMarket</h2>
+            <div class="row" id="advertisement-list">
+                <!-- Dynamically populated advertisements will go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 RangeMarket. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
