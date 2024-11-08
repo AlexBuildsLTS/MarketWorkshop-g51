@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: 'Dell XPS 13 (2021)',
             description: 'A compact laptop known for its design and performance.',
-            image: 'images/dellxps13.png',
+            image: 'images/dellxps.png',
             contact: 'alexlexicon@example.com'
         },
         {

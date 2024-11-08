@@ -49,7 +49,7 @@ const products = [
     },
     {
         title: "Dell XPS 15 (2021)",
-        image: "images/dellexps.png",
+        image: "images/dellxps.png",
         description: "A premium laptop known for its stunning display and robust performance.",
         price: "$1,799",
         contactInfo: "alexlexicon@example.com",
