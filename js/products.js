@@ -145,7 +145,7 @@ const products = [
     },
     {
         title: "Gigabyte AERO 15 OLED",
-        image: "images/aero.png",
+        image: "images/gigabyteer.png",
         description: "A creative laptop with an OLED display and powerful hardware.",
         price: "$1,899",
         contactInfo: "alexlexicon@example.com",

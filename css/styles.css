@@ -21,7 +21,6 @@ body {
     text-align: center;
 }
 
-
 /* Logo Styling */
 .logo {
     border-radius: 50%; /* Make it round */
@@ -33,11 +32,22 @@ body {
     margin: 0 auto 20px; /* Center and add margin at the bottom */
     object-fit: contain; /* Ensures the logo maintains its aspect ratio */
 }
+/* Logo Styling with Shadow */
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: #1C3F4B;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    object-fit: contain;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
 
 
 /* Section Background and Text Colors */
 section {
-    background-color: #05090f; 
+    background-color: #05090f; /* Dark background for the section */
     color: #ffffff; 
     padding: 50px 0;
 }
@@ -60,13 +70,24 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; /* Center text within the card */
     padding: 15px; /* Add padding for spacing */
     height: 100%; /* Maintain equal height for cards */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
-/* Image styling */
+.card:hover {
+    transform: scale(1.05); /* Slightly scale the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
+}
+
+/* Image Styling */
 .card-img-top {
     width: 100%; /* Ensure full width */
     height: 200px; /* Fixed height for consistency */
     object-fit: cover; /* Ensures the entire image is visible */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for image opacity */
+}
+
+.card:hover .card-img-top {
+    opacity: 0.9; /* Slightly fade the image on hover */
 }
 
 /* Modal Styling */
@@ -83,13 +104,22 @@ footer {
     text-align: center;
 }
 
-
+/* Modal Body Styling */
 .modal-body {
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start; /* Align items at the start */
 }
 
 .modal-body img {
     max-width: 250px; /* Set a maximum width for the laptop image */
     margin-right: 20px; /* Spacing between image and text */
+}
+
+/* Additional styling for contact information in modal */
+.modal-body .contact-info-box {
+    background-color: #1C3F4B; /* Dark teal box for contact info */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 0.85em; /* Smaller font size */
 }

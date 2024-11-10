@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             title: 'Gigabyte AORUS 15G',
             description: 'A gaming laptop with Intel Core i7, 16GB RAM, and NVIDIA GeForce RTX 3070.',
-            image: 'images/gigabyteaorus.png',
+            image: 'images/gigabyteer.png',
             contact: 'alexlexicon@example.com'
         },
         {
